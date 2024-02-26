@@ -1,0 +1,80 @@
+.home {
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border-radius: 20rem; */
+  height: 90vh;
+  margin-top: auto;
+  padding-right: 0rem;
+}
+.home .infos {
+  /* padding-left: 15rem; */
+  font-size: 29px;
+}
+.home h2 {
+  /* color: black; */
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.home .logo {
+  /* background-color: purple; */
+  background-color: #252422;
+
+}
+
+.home p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.home .logo {
+  /* display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%; */
+}
+
+.home .logo img {
+  height: 24rem;
+  /* padding-right: 15rem; */
+  /* background-color: aqua; */
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .home .infos {
+    padding: 0 10rem;
+    font-size: 25px;
+  }
+  .home .logo img {
+    /* height: 20rem;
+    padding: 1rem 10rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    padding-right: 0rem;
+    border-radius: 50%;
+    padding-top: 1rem;
+    background-color:#252422 ;
+    height: 20rem;
+  }
+  h5{
+    display: none;
+  }
+}

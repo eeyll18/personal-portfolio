@@ -1,0 +1,106 @@
+form {
+  background-color: black;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 22px;
+  margin-top: 9rem;
+}
+
+form h3 {
+  color: white;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  font-size: 40px;
+  background-color: black;
+
+}
+
+label {
+  /* background-color: white; */
+  margin: 1rem;
+  color: white;
+  font-weight: 700;
+  background-color: black;
+
+}
+
+input {
+  /* background-color: purple; */
+  /* margin: 1rem;
+    padding: 1rem; */
+    background-color: black;
+
+  width: 40%;
+  height: 40px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  color: white;
+  font-size: 18px;
+
+  &:focus {
+    border: 2px solid rgb(132, 34, 34);
+  }
+}
+
+textarea {
+  /* background-color: purple;
+    padding: 3rem; */
+    background-color: black;
+
+  max-width: 40%;
+  width: 40%;
+  /* width: 100%; */
+  max-height: 100px;
+  min-height: 100px;
+  color: white;
+  font-size: 18px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+
+  &:focus {
+    border: 2px solid rgb(132, 34, 34);
+  }
+}
+
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: rgb(132, 34, 34);
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 22px;
+  height: 50px;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  form {
+    font-size: 18px;
+    height: auto;
+    padding-bottom: 2.5rem;
+  }
+  form h3 {
+    font-size: 2.5rem;
+  }
+  input[type="submit"] {
+    font-size: 18px;
+  }
+  input {
+    font-size: 15px;
+  }
+  textarea {
+    font-size: 15px;
+  }
+}
